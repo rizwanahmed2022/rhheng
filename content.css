@@ -15,13 +15,24 @@ body
 }
 .container{
     background-color: white;
-    width: 40%;
+    width: 45%;
     border-radius: 30px;
-    height: 85vh;
+    height: 90vh;
     margin: 3rem auto;
-  text-align: center;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 80%;
+    }
+    .btn3{
+        margin-left: 22px;
+    }
 
 }
+
+
 .row{
     text-align: center;
     width: 100%;
@@ -32,7 +43,7 @@ body
 
 h3{
    color: #ef5f5e;
-   margin-top: 80px;
+   margin-top: 10px;
 
 }
 /* input{
@@ -115,31 +126,36 @@ h3{
 .btn3{
     font-size: 19px;
     width: 90%;
+    margin-left: 0px;
     height: 45px;
-
     background-color: rgb(41, 170, 41);
     border: none;
     color: white;
     border-radius: 10px;
+    transition-duration: 0.51s;
+
 }
 .btn3:hover{
-    background-color: rgb(5, 125, 5);
-    transition-duration: 1s;
+    background-color: rgb(3, 97, 3);
+    transition-duration: 0.51s;
 }
 #mes{
       
     width: 90%;
-    height: 55px;
-    border-radius: 13px;
+    height: 95px;
+    border-radius: 4px;
     margin: 10px;
     outline: none;
     border: 1px solid gray;
     padding-left: 10px;
+    padding-top: 8px;
+    color: rgb(100, 100, 100);
+
 }
 #mes1{
     width: 90%;
     height: 35px;
-    border-radius: 13px;
+    border-radius: 4px;
     margin: 10px;
     outline: none;
     border: 1px solid gray;
@@ -148,9 +164,12 @@ h3{
 #mes2{
     width: 90%;
     height: 35px;
-    border-radius: 13px;
+    border-radius: 4px;
     margin: 10px;
     outline: none;
     border: 1px solid gray;
     padding-left: 10px;
+}
+#mes2:focus,#mes:focus,#mes1:focus{
+    box-shadow: inset -1px -1px 1px 1px rgba(0, 0, 0, 0.321);
 }

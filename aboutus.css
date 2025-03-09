@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+     /* margin: 15rem 10rem; */
+     padding: 1rem;
+     padding-left: 170px;
+    gap: 10vw;
+    width: 50vw;
+    
+    
+}
+.container1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+     /* margin: 15rem 10rem; */
+    gap: 10vw;
+    height: 50vh;
+    width: 80vw;
+    margin-left: 10rem;
+    
+    
+}
+.row2 img{
+    width: 37vw;
+    height: 25vw;
+}
+
+.container p{
+    width: 29vw;
+     
+    font-size: 1vw;
+}
+.container h1{
+    font-size: 1.7vw;
+    margin-bottom: 5vw;
+    margin-top: 10vh; 
+    width: 30vw; 
+}
+.container2{
+    text-align: center;
+    width: 50%;
+    font-size: 1vw;
+    margin: 4vw 25vw;
+}
+hr{
+    width: 70%;
+}

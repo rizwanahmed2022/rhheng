@@ -1,0 +1,132 @@
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+body
+{
+    /* background-image: url(https://media.istockphoto.com/id/1199749863/photo/retail-gasoline-station-and-convenience-store-reworked.jpg?b=1&s=612x612&w=0&k=20&c=IjBfbwGYFQDwB_CyruOQy4NJ-MjVq96YWnnu8b_jEGk=); */
+    /* background-repeat: no-repeat; */
+    
+    /* background-size: 100vw 99.9vh; */
+    
+     
+    /* background: linear-gradient(#7a125b, #d4488e) no-repeat center center ; */
+}
+.container{
+    background-color: white;
+    width: 40%;
+    border-radius: 30px;
+    height: 87vh;
+    margin: 3rem auto;
+  text-align: center;
+
+}
+.row{
+    text-align: center;
+    width: 100%;
+    height: 50vh;
+          
+ 
+}
+
+h3{
+   color: #ef5f5e;
+   margin-top: 80px;
+
+}
+input{
+    width: 90%;
+    height: 35px;
+    border-radius: 13px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid gray;
+    padding-left: 10px;
+
+}
+.btn1{
+   background-color: rgb(12, 177, 243);
+    width: 90%;
+    height: 35px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: rgb(0, 113, 158);
+    transition-duration: 1s;
+}
+.btn2{
+    width: 90%;
+    height: 45px;
+    background-color: rgb(76, 76, 249);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.btn2:hover{
+    background-color: rgb(54, 54, 128);
+    transition-duration: 1s;
+}
+.bi {
+    font-size: 80px;
+   color: rgb(255, 123, 0);
+    
+}
+.container1{
+ /* padding-left: 30%;
+ padding-top: 10%;
+    text-align: center;
+     justify-content: center; */
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    top: 0;
+    background-image: url(https://media.istockphoto.com/id/1199749863/photo/retail-gasoline-station-and-convenience-store-reworked.jpg?b=1&s=612x612&w=0&k=20&c=IjBfbwGYFQDwB_CyruOQy4NJ-MjVq96YWnnu8b_jEGk=);
+    background-repeat: no-repeat;
+    filter: blur(10px);
+    z-index: -1;
+    background-size: 100vw 99.9vh;   
+    
+    position: absolute;
+    
+}
+.buttons-2{
+    display: flex;
+    position: relative;
+    left: 40px;
+    align-items: center;
+}
+.buttons-2 i{
+    font-size: 29px;
+    position: absolute;
+      left: 20px;
+      
+      color: white;
+}
+.buttons-3{
+    display: flex;
+    position: relative;
+    left: 40px;
+    align-items: center;
+}
+.buttons-3 i{
+    font-size: 29px;
+    position: absolute;
+      left: 20px;
+      
+      color: white;
+}
+.btn3{
+    width: 90%;
+    height: 45px;
+    background-color: rgb(41, 170, 41);
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+.btn3:hover{
+    background-color: rgb(5, 125, 5);
+    transition-duration: 1s;
+}
